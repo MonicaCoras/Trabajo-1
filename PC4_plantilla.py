@@ -26,7 +26,7 @@ sidebar = st.sidebar
 # Pero, a diferencia de st.markdown, el texto estará alineado a la izquierda y no podrás cambiar el color del texto.
 
 # La función st.markdown permite centrar y agrandar la letra del título de la web en Streamlit.
-st.markdown("<h1 style='text-align: center;'>𐙚˙Mi presentación ✧˖°</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>𐙚˙V-log Python✧˖°</h1>", unsafe_allow_html=True)
 
 # <h1 style='text-align: center;'>Nombre de tu blog</h1>: Esto es una cadena de código HTML. 
 # La etiqueta <h1> se utiliza para el encabezado principal de una página web, y 
@@ -46,7 +46,7 @@ col1, col2 = st.columns(2)
 # Las columnas creadas se asignan a las variables col1 y col2.
 
 # En la primera columna colocamos la imagen
-col1.image("foto.jpeg", caption='Mónica Coras', width=300)
+col1.image("foto.jpeg", caption='Yop', width=300)
 
 # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
 # La función image toma como primer argumento la ruta de la imagen que se va a mostrar. 
@@ -96,10 +96,7 @@ st.markdown("<h2 style='text-align: center;'>Mi experiencia aprendiendo a progra
 
 # Agregar un  texto para la respuesta
 texto_2 = """
-Al principio parecía muy difícil aprender a programar porque nunca había siquiera escuchado sobre ello, pero fue tan
- difícil una vez aprendí como funcionaban los códigos y funciones básicas, 
- teniendo esos conocimientos como base aprendí a crear gráficos y mapas usando bases de datos y diccionarios. Incluso como
- programar puede aplicarse a mi carrera y lo útil que es para generar estadísticas y gráficos de grandes listas de datos.
+Al principio, aprender a programar supuso un desafío considerable debido a mi completa inexperiencia en el campo. Sin embargo, una vez adquirí dominio sobre los fundamentos de los códigos y funciones básicas, pude avanzar hacia la creación de gráficos y mapas utilizando bases de datos y diccionarios. Descubrir la aplicabilidad de la programación en mi carrera, especialmente para la generación de estadísticas y la visualización de grandes conjuntos de datos, fue revelador. Esta habilidad no solo mejoró mi eficiencia en el trabajo, sino que también amplió mi capacidad para abordar problemas de manera sistemática y creativa. A través de la programación, he encontrado una herramienta poderosa para explorar ideas y convertirlas en soluciones prácticas e innovadoras.
 """
 
 # Mostramos el texto
